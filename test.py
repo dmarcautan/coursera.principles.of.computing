@@ -11,3 +11,8 @@ assert (game.merge([2,2,2,0]) == [4,2,0,0])
 assert (game.merge([2,2,2,2]) == [4,4,0,0])
 assert (game.merge([4,4,8,8]) == [8,16,0,0])
 assert (game.merge([8,8,8,2]) == [16,8,2,0])
+
+new_game = game.TwentyFortyEight(4, 4)
+print new_game
+new_game.move(3)
+print new_game
